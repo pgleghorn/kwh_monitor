@@ -31,13 +31,15 @@ documentation todo
 
 Build kwh_monitor.py:
 ```
+python3 -m venv .
+. bin/activate
 pip install -r requirements.txt
 ```
 
 Install promemtheus and configure a new scrape config:
 ```
 scrape_configs:
-  - job_name: "kwh_sensor"
+  - job_name: "kwh_monitor"
     static_configs:
       - targets: ["localhost:8000"]
 ```
@@ -50,7 +52,7 @@ buildUpload.sh
 ## Run
 
 ```
-./kwh_monitor.py &
+nohup ./kwh_monitor.py
 ```
 
 Visit prometheus at localhost:9090
