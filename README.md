@@ -1,4 +1,4 @@
-# watts-up
+# kwh_monitor
 
 A project to monitor and graph the electricity usage in the home over time.
 
@@ -12,7 +12,7 @@ frequency according to the current consumption.  Some code on the arduino
 
 Some code on the Raspberry Pi (kwh_monitor.py) 
 listens on the serial connection, notes the pulse frequency and calculates
-the effective kWh usage. It reports the value as a metric to a 
+the effective kWh usage. It reports the value as a 'gauge' metric to a 
 prometheus server running on the Raspberry Pi.
 
 ## Requirements
