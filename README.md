@@ -52,7 +52,7 @@ buildUpload.sh
 ## Run
 
 ```
-nohup ./kwh_monitor.py
+nohup ./kwh_monitor.py &
 ```
 
 Visit prometheus at localhost:9090
