@@ -26,7 +26,8 @@ This project has only been built/tested with:
 
 ## Arduino sensor
 
-documentation todo
+![Pretty picture here](./shield.png)
+Green lines are to the light sensitive resistor.  Blue is a resistor (value t.b.d).
 
 ## Install
 
